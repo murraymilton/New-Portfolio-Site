@@ -20,17 +20,27 @@ h1 {
   /* position: relative; */
   left: -100px;
   bottom: 70px;
+  margin-bottom: 20px;
+  margin-left: 20px;
 }
 
 a {
   color: #fff;
+  text-decoration: none;
+}
+
+li {
+  float: right;
+  margin-right: 25px;
 }
 
 .social {
-  display: inline-block;
+  /* display: inline-block; */
   list-style: none;
-  font-size: 40px;
+  font-size: 30px;
   position: absolute;
+  bottom: 170px;
+  left: 160px;
 }
 
 .social-icon {
@@ -39,8 +49,8 @@ a {
 
 .contact-me {
   position: absolute;
-  bottom: 190px;
-  left: 200px;
+  top: 550px;
+  left: 110px;
 }
 
 .top-header {
@@ -79,7 +89,7 @@ a {
 
 button {
   width: 250px;
-  height: 75px;
+  height: 65px;
   border-radius: 50px;
   color: #fff;
   font-size: bold;
